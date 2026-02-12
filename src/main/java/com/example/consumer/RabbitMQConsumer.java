@@ -8,7 +8,7 @@ import com.rabbitmq.client.ConnectionFactory;
 
 
 public class RabbitMQConsumer {
-    private final static String QUEUE_NAME = "cola";
+    private final static String QUEUE_NAME = "myQueue";
 
     public static void main(String[] argv) throws IOException, TimeoutException {
         // Establecer conexión y canal a RabbitMQ
